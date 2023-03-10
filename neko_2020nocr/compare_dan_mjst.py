@@ -1,7 +1,8 @@
 from compare_dans import diff
 from neko_sdk.visualization import colors as cp
-colors=list(cp.colors.colors20.values())
-methods=[
+
+colors = list(cp.colors.colors20.values())
+methods = [
     # ["basic_mjst_CES_3ca",colors[0],"solid"],
     # ["basic_mjst_CE_3ca", colors[1], "dash"],
     # ["rawS_mjst_C_alter", colors[2], "solid"],
@@ -38,7 +39,6 @@ methods=[
 
     # ["basict_mjstcqa_CE_alter_gen2", colors[9], "dash"],
 
-
     # ["basic_mjstcqaSemi_CE_alter", colors[16], "solid"],
     # ["basictn_mjstcqa_CE_alter", colors[10], "dash"],
 
@@ -51,4 +51,4 @@ methods=[
     # ["basici_mjst_CE_alter", colors[15], "solid"],
 ]
 
-diff("/home/lasercat/resultcollpami/mjst/",methods,239703);
+diff("/home/lasercat/resultcollpami/mjst/", methods, 239703);

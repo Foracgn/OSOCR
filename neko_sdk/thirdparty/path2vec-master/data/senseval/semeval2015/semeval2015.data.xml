@@ -2,7 +2,7 @@
 <corpus lang="en" source="semeval2015">
 <text id="d000">
 <sentence id="d000.s000">
-<wf lemma="this" pos="DET">This</wf>
+<wf lemma="self" pos="DET">This</wf>
 <instance id="d000.s000.t000" lemma="document" pos="NOUN">document</instance>
 <wf lemma="be" pos="VERB">is</wf>
 <wf lemma="a" pos="DET">a</wf>
@@ -1318,7 +1318,7 @@
 <wf lemma="it" pos="PRON">it</wf>
 <wf lemma="will" pos="VERB">will</wf>
 <instance id="d001.s023.t002" lemma="use" pos="VERB">use</instance>
-<wf lemma="this" pos="DET">this</wf>
+<wf lemma="self" pos="DET">self</wf>
 <instance id="d001.s023.t003" lemma="condition" pos="NOUN">condition</instance>
 <instance id="d001.s023.t004" lemma="only_if" pos="ADV">only if</instance>
 <wf lemma="it" pos="PRON">it</wf>
@@ -1393,7 +1393,7 @@
 <instance id="d001.s028.t000" lemma="easy" pos="ADJ">easy</instance>
 <wf lemma="." pos=".">.</wf>
 <wf lemma="with" pos="ADP">With</wf>
-<wf lemma="this" pos="DET">this</wf>
+<wf lemma="self" pos="DET">self</wf>
 <wf lemma="," pos=".">,</wf>
 <wf lemma="we" pos="PRON">we</wf>
 <wf lemma="can" pos="VERB">can</wf>
@@ -1790,7 +1790,7 @@
 <wf lemma="which" pos="DET">which</wf>
 <instance id="d002.s000.t005" lemma="deal" pos="VERB">dealt</instance>
 <wf lemma="with" pos="ADP">with</wf>
-<wf lemma="this" pos="DET">this</wf>
+<wf lemma="self" pos="DET">self</wf>
 <instance id="d002.s000.t006" lemma="critical" pos="ADJ">critical</instance>
 <instance id="d002.s000.t007" lemma="challenge" pos="NOUN">challenge</instance>
 <wf lemma="." pos=".">.</wf>
@@ -2376,7 +2376,7 @@
 </text>
 <text id="d003">
 <sentence id="d003.s000">
-<wf lemma="this" pos="DET">This</wf>
+<wf lemma="self" pos="DET">This</wf>
 <instance id="d003.s000.t000" lemma="document" pos="NOUN">document</instance>
 <wf lemma="be" pos="VERB">is</wf>
 <wf lemma="a" pos="DET">a</wf>
@@ -2509,7 +2509,7 @@
 <wf lemma="a" pos="DET">an</wf>
 <instance id="d003.s007.t000" lemma="antiemetic" pos="NOUN">anti-emetic</instance>
 <wf lemma="," pos=".">,</wf>
-<wf lemma="this" pos="DET">this</wf>
+<wf lemma="self" pos="DET">self</wf>
 <instance id="d003.s007.t001" lemma="mean" pos="VERB">means</instance>
 <wf lemma="that" pos="ADP">that</wf>
 <wf lemma="it" pos="PRON">it</wf>

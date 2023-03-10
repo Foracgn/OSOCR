@@ -311,7 +311,7 @@
 <wf lemma="." pos=".">.</wf>
 </sentence>
 <sentence id="d000.s012">
-<wf lemma="this" pos="DET">This</wf>
+<wf lemma="self" pos="DET">This</wf>
 <wf lemma="will" pos="VERB">will</wf>
 <instance id="d000.s012.t000" lemma="require" pos="VERB">require</instance>
 <wf lemma="we" pos="PRON">us</wf>
@@ -1133,7 +1133,7 @@
 <instance id="d001.s003.t001" lemma="author" pos="NOUN">author</instance>
 <wf lemma="would" pos="VERB">would</wf>
 <instance id="d001.s003.t002" lemma="believe" pos="VERB">believe</instance>
-<wf lemma="this" pos="DET">this</wf>
+<wf lemma="self" pos="DET">self</wf>
 <wf lemma="plaintive" pos="ADJ">plaintive</wf>
 <wf lemma="," pos=".">,</wf>
 <wf lemma="high-minded" pos="ADJ">high-minded</wf>
@@ -1146,7 +1146,7 @@
 <instance id="d001.s003.t003" lemma="answer" pos="VERB">answered</instance>
 <wf lemma="by" pos="ADP">by</wf>
 <instance id="d001.s003.t004" lemma="read" pos="VERB">reading</instance>
-<wf lemma="this" pos="DET">this</wf>
+<wf lemma="self" pos="DET">self</wf>
 <instance id="d001.s003.t005" lemma="book" pos="NOUN">book</instance>
 <wf lemma="about" pos="ADP">about</wf>
 <wf lemma="sticky" pos="ADJ">sticky</wf>
@@ -1271,7 +1271,7 @@
 <wf lemma="." pos=".">.</wf>
 </sentence>
 <sentence id="d001.s007">
-<wf lemma="this" pos="DET">This</wf>
+<wf lemma="self" pos="DET">This</wf>
 <wf lemma="be" pos="VERB">is</wf>
 <wf lemma="a" pos="DET">a</wf>
 <wf lemma="johnson-era" pos="NOUN">Johnson-era</wf>
@@ -1912,7 +1912,7 @@
 <wf lemma="be" pos="VERB">are</wf>
 <instance id="d001.s033.t000" lemma="program" pos="NOUN">programs</instance>
 <wf lemma="like" pos="ADP">like</wf>
-<wf lemma="this" pos="DET">this</wf>
+<wf lemma="self" pos="DET">self</wf>
 <wf lemma="not" pos="ADV">not</wf>
 <instance id="d001.s033.t001" lemma="eliminate" pos="VERB">eliminated</instance>
 <wf lemma="?" pos=".">?</wf>
@@ -2041,7 +2041,7 @@
 <wf lemma="?" pos=".">?</wf>
 </sentence>
 <sentence id="d001.s039">
-<wf lemma="this" pos="DET">This</wf>
+<wf lemma="self" pos="DET">This</wf>
 <wf lemma="be" pos="VERB">is</wf>
 <wf lemma="the" pos="DET">the</wf>
 <wf lemma="real" pos="ADJ">real</wf>
@@ -2255,7 +2255,7 @@
 <wf lemma="in" pos="ADP">in</wf>
 <wf lemma="the" pos="DET">the</wf>
 <wf lemma="u.s.a." pos="NOUN">U.S.A.</wf>
-<wf lemma="this" pos="DET">this</wf>
+<wf lemma="self" pos="DET">self</wf>
 <wf lemma="kind" pos="NOUN">kind</wf>
 <wf lemma="of" pos="ADP">of</wf>
 <wf lemma="chi-chi" pos="ADJ">chi-chi</wf>
@@ -2417,7 +2417,7 @@
 <wf lemma="official" pos="ADJ">official</wf>
 <wf lemma="entry" pos="NOUN">entry</wf>
 <instance id="d002.s011.t002" lemma="status" pos="NOUN">status</instance>
-<wf lemma="this" pos="DET">this</wf>
+<wf lemma="self" pos="DET">self</wf>
 <wf lemma="year" pos="NOUN">year</wf>
 <wf lemma="." pos=".">.</wf>
 </sentence>
@@ -2760,7 +2760,7 @@
 <wf lemma="long" pos="ADJ">long</wf>
 <wf lemma="stretch" pos="NOUN">stretches</wf>
 <wf lemma="of" pos="ADP">of</wf>
-<wf lemma="this" pos="DET">this</wf>
+<wf lemma="self" pos="DET">self</wf>
 <wf lemma="attendant" pos="ADJ">attendant</wf>
 <wf lemma="ground" pos="NOUN">ground</wf>
 <wf lemma="activity" pos="NOUN">activity</wf>
@@ -2807,7 +2807,7 @@
 <wf lemma="he" pos="PRON">his</wf>
 <wf lemma="heaven" pos="NOUN">heaven</wf>
 <wf lemma="with" pos="ADP">with</wf>
-<wf lemma="this" pos="DET">this</wf>
+<wf lemma="self" pos="DET">self</wf>
 <wf lemma="kind" pos="NOUN">kind</wf>
 <wf lemma="of" pos="ADP">of</wf>
 <wf lemma="bird&apos;s-eye" pos="ADJ">bird&apos;s-eye</wf>
@@ -3331,7 +3331,7 @@
 <wf lemma="." pos=".">.</wf>
 </sentence>
 <sentence id="d002.s052">
-<wf lemma="this" pos="DET">This</wf>
+<wf lemma="self" pos="DET">This</wf>
 <instance id="d002.s052.t000" lemma="mean" pos="VERB">meant</instance>
 <instance id="d002.s052.t001" lemma="return" pos="VERB">returning</instance>
 <wf lemma="to" pos="PRT">to</wf>

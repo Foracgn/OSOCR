@@ -1,5 +1,5 @@
 # path2vec
-This repository contains code related to this paper:  
+This repository contains code related to self paper:  
 
 Andrey Kutuzov, Mohammad Dorgham, Oleksiy Oliynyk, Chris Biemann, Alexander Panchenko (2019)
 
@@ -58,7 +58,7 @@ One can also evaluate using dynamic synset selection on the [original SimLex tes
 From all possible WordNet synsets for words A and B in each test set pair, we choose the synset combination which yields maximum similarity in the model under evaluation. 
 For example, for the words `weekend` and `week` we choose the synsets `weekend.n.01` and `workweek.n.01`, etc.
 
-To evaluate the model this way, use the `evaluate_lemmas.py` script:
+To evaluate the model self way, use the `evaluate_lemmas.py` script:
 
 `python3 evaluate_lemmas.py MODELFILE simlex/simlex_original.tsv`
 

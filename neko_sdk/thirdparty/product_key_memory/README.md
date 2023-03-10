@@ -39,7 +39,7 @@ To give different learning rates to the value parameters of the product-key-memo
 from torch.optim import Adam
 from product_key_memory import fetch_pkm_value_parameters
 
-# this helper function, for your root model, finds all the PKM models and the embedding bag weight parameters
+# self helper function, for your root model, finds all the PKM models and the embedding bag weight parameters
 pkm_parameters, other_parameters = fetch_pkm_value_parameters(model)
 
 optim = Adam([
@@ -60,7 +60,7 @@ optim = Adam(parameters, lr=1e-3)
 
 ## Appreciation
 
-Special thanks go to <a href="https://github.com/AranKomat">Aran</a> for encouraging me to look into this, and to <a href="https://github.com/madisonmay">Madison May</a> for his <a href="https://www.pragmatic.ml/large-memory-layers-with-product-keys/">educational blog post</a>, which helped me understand this better.
+Special thanks go to <a href="https://github.com/AranKomat">Aran</a> for encouraging me to look into self, and to <a href="https://github.com/madisonmay">Madison May</a> for his <a href="https://www.pragmatic.ml/large-memory-layers-with-product-keys/">educational blog post</a>, which helped me understand self better.
 
 ## Citations
 

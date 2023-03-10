@@ -29,7 +29,7 @@ class TPS_SpatialTransformerNetwork(nn.Module):
         batch_C_prime = self.LocalizationNetwork(batch_I)  # batch_size x K x 2
         build_P_prime = self.GridGenerator.build_P_prime(batch_C_prime)  # batch_size x n (= I_r_width x I_r_height) x 2
         build_P_prime_reshape = build_P_prime.reshape([build_P_prime.size(0), self.I_r_size[0], self.I_r_size[1], 2])
-        
+
         if torch.__version__ > "1.2.0":
             batch_I_r = F.grid_sample(batch_I, build_P_prime_reshape, padding_mode='border', align_corners=True)
         else:
@@ -55,6 +55,7 @@ class LocalizationNetwork_hi(nn.Module):
             nn.Conv2d(256, 512, 3, 1, 1, bias=False), nn.BatchNorm2d(512), nn.ReLU(True),
             nn.AdaptiveAvgPool2d(1)  # batch_size x 512
         )
+
     def forward(self, batch_I):
         """
         input:     batch_I : Batch Input Image [batch_size x I_channel_num x I_height x I_width]
@@ -63,10 +64,12 @@ class LocalizationNetwork_hi(nn.Module):
         batch_size = batch_I.size(0)
         features = self.conv(batch_I).view(batch_size, -1)
         return features
+
+
 class LocalizationNetwork_lo(nn.Module):
-    def __init__(self,F):
+    def __init__(self, F):
         super(LocalizationNetwork_lo, self).__init__()
-        self.F=F;
+        self.F = F;
         self.localization_fc1 = nn.Sequential(nn.Linear(512, 256), nn.ReLU(True))
         self.localization_fc2 = nn.Linear(256, self.F * 2)
 
@@ -85,6 +88,7 @@ class LocalizationNetwork_lo(nn.Module):
         batch_size = features.size(0)
         batch_C_prime = self.localization_fc2(self.localization_fc1(features)).view(batch_size, self.F, 2)
         return batch_C_prime;
+
 
 class LocalizationNetwork(nn.Module):
     """ Localization Network of RARE, which predicts C' (K x 2) from I (I_width x I_height) """
@@ -141,12 +145,12 @@ class GridGenerator(nn.Module):
         self.F = F
         self.C = self._build_C(self.F)  # F x 2
         self.P = self._build_P(self.I_r_width, self.I_r_height)
-        ## for multi-gpu, you need register buffer
+        # for multi-gpu, you need register buffer
         self.register_buffer("inv_delta_C", torch.tensor(self._build_inv_delta_C(self.F, self.C)).float())  # F+3 x F+3
         self.register_buffer("P_hat", torch.tensor(self._build_P_hat(self.F, self.C, self.P)).float())  # n x F+3
-        ## for fine-tuning with different image width, you may use below instead of self.register_buffer
-        #self.inv_delta_C = torch.tensor(self._build_inv_delta_C(self.F, self.C)).float().cuda()  # F+3 x F+3
-        #self.P_hat = torch.tensor(self._build_P_hat(self.F, self.C, self.P)).float().cuda()  # n x F+3
+        # for fine-tuning with different image width, you may use below instead of self.register_buffer
+        # self.inv_delta_C = torch.tensor(self._build_inv_delta_C(self.F, self.C)).float().cuda()  # F+3 x F+3
+        # self.P_hat = torch.tensor(self._build_P_hat(self.F, self.C, self.P)).float().cuda()  # n x F+3
 
     def _build_C(self, F):
         """ Return coordinates of fiducial points in I_r; C """

@@ -154,7 +154,7 @@
 <instance id="d000.s009.t002" lemma="tie" pos="VERB">tied</instance>
 <wf lemma="up" pos="PRT">up</wf>
 <wf lemma="with" pos="ADP">with</wf>
-<wf lemma="this" pos="DET">this</wf>
+<wf lemma="self" pos="DET">self</wf>
 <instance id="d000.s009.t003" lemma="stranger" pos="NOUN">stranger</instance>
 <wf lemma="." pos=".">.</wf>
 </sentence>
@@ -1743,7 +1743,7 @@
 <wf lemma="." pos=".">.</wf>
 </sentence>
 <sentence id="d000.s101">
-<wf lemma="this" pos="DET">This</wf>
+<wf lemma="self" pos="DET">This</wf>
 <instance id="d000.s101.t000" lemma="favorite" pos="ADJ">favorite</instance>
 <instance id="d000.s101.t001" lemma="grievance" pos="NOUN">grievance</instance>
 <wf lemma="be" pos="VERB">was</wf>
@@ -2305,7 +2305,7 @@
 <wf lemma="n&apos;t" pos="ADV">n&apos;t</wf>
 <wf lemma="be" pos="VERB">been</wf>
 <wf lemma="in" pos="ADP">in</wf>
-<wf lemma="this" pos="DET">this</wf>
+<wf lemma="self" pos="DET">self</wf>
 <instance id="d000.s133.t001" lemma="state" pos="NOUN">state</instance>
 <wf lemma="too" pos="ADV">too</wf>
 <wf lemma="long" pos="ADV">long</wf>
@@ -2384,7 +2384,7 @@
 <wf lemma="--" pos=".">--</wf>
 <wf lemma="just" pos="ADV">just</wf>
 <instance id="d000.s139.t001" lemma="suppose" pos="VERB">suppose</instance>
-<wf lemma="this" pos="DET">this</wf>
+<wf lemma="self" pos="DET">self</wf>
 <instance id="d000.s139.t002" lemma="guy" pos="NOUN">guy</instance>
 <wf lemma="be" pos="VERB">was</wf>
 <wf lemma="really" pos="ADV">really</wf>
@@ -3208,7 +3208,7 @@
 </sentence>
 <sentence id="d001.s018">
 <wf lemma="while" pos="ADP">While</wf>
-<wf lemma="this" pos="DET">this</wf>
+<wf lemma="self" pos="DET">self</wf>
 <instance id="d001.s018.t000" lemma="theory" pos="NOUN">theory</instance>
 <wf lemma="be" pos="VERB">is</wf>
 <wf lemma="exceedingly" pos="ADV">exceedingly</wf>
@@ -3395,7 +3395,7 @@
 <wf lemma="one" pos="NUM">one</wf>
 <instance id="d001.s023.t000" lemma="exception" pos="NOUN">exception</instance>
 <wf lemma="to" pos="PRT">to</wf>
-<wf lemma="this" pos="DET">this</wf>
+<wf lemma="self" pos="DET">self</wf>
 <instance id="d001.s023.t001" lemma="recent" pos="ADJ">recent</instance>
 <instance id="d001.s023.t002" lemma="trend" pos="NOUN">trend</instance>
 <wf lemma="be" pos="VERB">was</wf>
@@ -3675,7 +3675,7 @@
 <wf lemma="of" pos="ADP">of</wf>
 <wf lemma="congress" pos="NOUN">Congress</wf>
 <wf lemma="," pos=".">,</wf>
-<wf lemma="this" pos="DET">this</wf>
+<wf lemma="self" pos="DET">self</wf>
 <wf lemma="be" pos="VERB">is</wf>
 <wf lemma="precisely" pos="ADV">precisely</wf>
 <wf lemma="the" pos="DET">the</wf>
@@ -3706,7 +3706,7 @@
 <instance id="d001.s032.t000" lemma="empirical" pos="ADJ">empirical</instance>
 <instance id="d001.s032.t001" lemma="support" pos="NOUN">support</instance>
 <wf lemma="for" pos="ADP">for</wf>
-<wf lemma="this" pos="DET">this</wf>
+<wf lemma="self" pos="DET">self</wf>
 <instance id="d001.s032.t002" lemma="theory" pos="NOUN">theory</instance>
 <wf lemma="?" pos=".">?</wf>
 </sentence>
@@ -3780,7 +3780,7 @@
 <instance id="d001.s035.t006" lemma="local" pos="ADJ">local</instance>
 <instance id="d001.s035.t007" lemma="benefit" pos="NOUN">benefit-seeking</instance>
 <wf lemma="," pos=".">,</wf>
-<wf lemma="this" pos="DET">this</wf>
+<wf lemma="self" pos="DET">self</wf>
 <instance id="d001.s035.t008" lemma="indicate" pos="VERB">indicates</instance>
 <wf lemma="that" pos="ADP">that</wf>
 <instance id="d001.s035.t009" lemma="political" pos="ADJ">political</instance>
@@ -3852,7 +3852,7 @@
 <wf lemma="." pos=".">.</wf>
 </sentence>
 <sentence id="d001.s037">
-<wf lemma="this" pos="DET">This</wf>
+<wf lemma="self" pos="DET">This</wf>
 <wf lemma="be" pos="VERB">is</wf>
 <wf lemma="indeed" pos="ADV">indeed</wf>
 <wf lemma="what" pos="PRON">what</wf>
@@ -4564,7 +4564,7 @@
 <wf lemma="." pos=".">.</wf>
 </sentence>
 <sentence id="d002.s018">
-<wf lemma="this" pos="DET">This</wf>
+<wf lemma="self" pos="DET">This</wf>
 <instance id="d002.s018.t000" lemma="time" pos="NOUN">time</instance>
 <wf lemma="," pos=".">,</wf>
 <wf lemma="it" pos="PRON">it</wf>
@@ -4685,7 +4685,7 @@
 <wf lemma="." pos=".">.</wf>
 </sentence>
 <sentence id="d002.s028">
-<wf lemma="this" pos="DET">This</wf>
+<wf lemma="self" pos="DET">This</wf>
 <instance id="d002.s028.t000" lemma="building" pos="NOUN">building</instance>
 <instance id="d002.s028.t001" lemma="shake" pos="VERB">shook</instance>
 <wf lemma="like" pos="ADP">like</wf>
@@ -5113,7 +5113,7 @@
 <instance id="d002.s063.t000" lemma="hard" pos="ADJ">hard</instance>
 <wf lemma="to" pos="PRT">to</wf>
 <instance id="d002.s063.t001" lemma="believe" pos="VERB">believe</instance>
-<wf lemma="this" pos="DET">this</wf>
+<wf lemma="self" pos="DET">self</wf>
 <wf lemma="really" pos="ADV">really</wf>
 <wf lemma="be" pos="VERB">is</wf>
 <instance id="d002.s063.t002" lemma="happen" pos="VERB">happening</instance>
@@ -5159,7 +5159,7 @@
 <wf lemma="." pos=".">.</wf>
 </sentence>
 <sentence id="d002.s068">
-<wf lemma="this" pos="DET">This</wf>
+<wf lemma="self" pos="DET">This</wf>
 <wf lemma="be" pos="VERB">being</wf>
 <instance id="d002.s068.t000" lemma="type" pos="VERB">typed</instance>
 <wf lemma="in" pos="ADP">in</wf>
@@ -5429,7 +5429,7 @@
 <wf lemma="but" pos="CONJ">but</wf>
 <wf lemma="there" pos="DET">there</wf>
 <wf lemma="be" pos="VERB">was</wf>
-<wf lemma="this" pos="DET">this</wf>
+<wf lemma="self" pos="DET">self</wf>
 <instance id="d002.s088.t002" lemma="surreal" pos="ADJ">surreal</instance>
 <instance id="d002.s088.t003" lemma="low" pos="ADJ">low</instance>
 <instance id="d002.s088.t004" lemma="level" pos="NOUN">level</instance>
@@ -6190,7 +6190,7 @@
 <instance id="d002.s139.t002" lemma="minute" pos="NOUN">minutes</instance>
 <wf lemma="before" pos="ADP">before</wf>
 <wf lemma="eight" pos="NUM">eight</wf>
-<wf lemma="this" pos="DET">this</wf>
+<wf lemma="self" pos="DET">self</wf>
 <instance id="d002.s139.t003" lemma="morning" pos="NOUN">morning</instance>
 <wf lemma="." pos=".">.</wf>
 </sentence>
