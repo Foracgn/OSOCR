@@ -5,3 +5,5 @@ dataset
 *.log
 neko_2020nocr/dan/models/*
 *.pyc
+packs
+prfinal

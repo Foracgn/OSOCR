@@ -12,7 +12,6 @@ cnt = 2000
 prefix = "basic" + "_" + DSPRFIX + "_" + loss[0] + "_" + "alter_" + str(cnt)
 print(prefix)
 DSROOT = find_data_root()
-assert (os.path.basename(os.getcwd()) + "_" + str(cnt) == prefix)
 dataset = DSCFG(cnt, T, "dict.pt", DSROOT)
 PDICT = dataset["dict_dir"]
 

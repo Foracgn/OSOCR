@@ -133,12 +133,15 @@ class neko_abstract_DAN:
 
     def run(self, dbgpath=None, measure_rej=False):
         # ---------------------------------
+        # print(self.cfgs.global_cfgs)
+        # input()
         if self.cfgs.global_cfgs['state'] == 'Test':
             with torch.no_grad():
                 self.runtest(self.cfgs.global_cfgs['test_miter'], False, dbgpath, measure_rej=measure_rej)
             return
         # --------------------------------
         total_iters = len(self.train_loader)
+
         for model in self.model:
             model.train()
         for nEpoch in range(0, self.cfgs.global_cfgs['epoch']):

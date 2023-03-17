@@ -6,7 +6,7 @@ def find_data_root():
     username = getpass.getuser()
     if username != "prir1005":
         print("own PC?")
-        return os.path.join("/home", username, "ssddata")
+        return os.path.join("/home/sunhongyi/桌面/sunhongyi/OSOCR/packs/")
     else:
         print("lab pc!")
         return "/home/prir1005/cat/recdatassd/"

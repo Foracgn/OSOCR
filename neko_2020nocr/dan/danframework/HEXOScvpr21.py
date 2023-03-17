@@ -102,12 +102,14 @@ class HXXOS2C(HXOSC):
         proto, semb, plabel, tdict = self.model[3].dump_all()
         return proto, semb, plabel, tdict
 
-    def test(this, test_loader, model, tools, miter=1000, debug=False, dbgpath=None):
+    def test(self, test_loader, model, tools, miter=1000, debug=False, dbgpath=None):
+        print("test start", self.cfgs.dataset_cfgs)
+        input()
         Train_or_Eval(model, 'Eval')
         # model[3].train()
         temeta = None
-        if "temeta" in this.cfgs.dataset_cfgs:
-            temeta = torch.load(this.cfgs.dataset_cfgs["temeta"])
+        if "temeta" in self.cfgs.dataset_cfgs:
+            temeta = torch.load(self.cfgs.dataset_cfgs["temeta"])
         tmetastart = time.time()
         if temeta is None:
             proto, semb, plabel, tdict = model[3].dump_all()
@@ -125,18 +127,29 @@ class HXXOS2C(HXOSC):
         if dbgpath is not None:
             visualizer = visdan(dbgpath)
         # cfm=neko_confusion_matrix();
+        print("test load start")
+        input()
+        print(test_loader)
+        input()
         for sample_batched in test_loader:
+            print("batched:", sample_batched, "\n")
+            input()
             if idi > miter:
                 break
             idi += 1
             data = sample_batched['image']
             label = sample_batched['label']
+            print("data:", data, "\n")
+            print("label:", label, "\n")
+            input()
             target = model[3].encode(proto, plabel, tdict, label)
 
             all += data.shape[0]
             data = data.cuda()
             target = target
             label_flatten, length = tools[1](target)
+            print("target", target, "\n")
+            input()
             # target, label_flatten = target.cuda(), label_flatten.cuda()
 
             features = model[0](data)
@@ -182,6 +195,8 @@ class HXXOS2C(HXOSC):
         #         cfm.save_matrix(os.path.join())
         #     except:
         #         pass;
+        print("test load end")
+        input()
         fwdend = time.time()
         print((fwdend - fwdstart) / all, all)
         if len(tools) == 3:
